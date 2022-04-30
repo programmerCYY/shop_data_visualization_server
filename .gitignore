@@ -1,0 +1,24 @@
+.DS_Store
+**/node_modules/*
+.idea
+.vscode
+.cache
+.next
+stats.json
+/dev
+/dist
+/public
+/dist-sourcemap
+whistle.log
+
+# ci
+qci-info
+auto_qci_tools/node_modules
+
+# npm
+.bin
+.cache
+
+
+/output/resource/*
+.scannerwork
