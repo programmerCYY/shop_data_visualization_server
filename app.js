@@ -93,8 +93,8 @@ app.use(function (err, req, res, next) {
 app.listen(3000)
 console.log('网站服务器启动成功，后端监听3000端口')
 
-// const webSocketService = require('./service/web_socket_service')
-// // 开启服务端的监听, 监听客户端的连接
-// // 当某一个客户端连接成功之后, 就会对这个客户端进行message事件的监听
-// webSocketService.listen()
+const webSocketService = require('./service/web_socket_service')
+// 开启服务端的监听, 监听客户端的连接
+// 当某一个客户端连接成功之后, 就会对这个客户端进行message事件的监听
+webSocketService.listen()
 
